@@ -141,7 +141,7 @@
         </table>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-		          <tr onmouseout="gaze2_stop()" onmouseover="gaze2_start()">
+		     <tr onmouseout="gaze2_stop()" onmouseover="gaze2_start()">
             <td width="25%">
               <div class="one">
                 <div class="two" id='gaze2_image'><img src='images/gaze2_after.png'></div>
@@ -255,8 +255,43 @@
                   <a href="https://github.com/onlytailei/carla_cil_pytorch">code</a>
               <br>
             </td>
+			
           </tr>
+				     <tr onmouseout="gaze2_stop()" onmouseover="gaze2_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='gaze2_image'><img src='images/embc_2018.png'></div>
+                <img src='images/embc_2018.png'>
+              </div>
+              <script type="text/javascript">
+                function gaze2_start() {
+                  document.getElementById('gaze2_image').style.opacity =" 1 ";
+                }
 
+                function gaze2_stop() {
+                  document.getElementById('gaze2_image').style.opacity = "0";
+                }
+                gaze2_stop()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="https://ieeexplore.ieee.org/document/8512227">
+                <papertitle>On the Interaction between Gaze Behavior and Physiological Responses when Viewing Garden Scenes.</papertitle>
+              </a>
+              <br>
+              <em>2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) </em>
+              <br>
+              <br>
+              <strong>Congcong Liu*</strong>,
+			  Yawen Zhang
+              Karl Herrup,
+              Bertram Shi
+              <br>
+                  <a href="https://ieeexplore.ieee.org/document/8512227">Paper</a> /
+                  <a href="papers/embc2018.bib">bibtex</a>
+              <br>
+            </td>
+          </tr>
 
 
 
