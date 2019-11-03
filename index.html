@@ -145,18 +145,96 @@
         </table>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-		     <tr onmouseout="gaze2_stop()" onmouseover="gaze2_start()">
+		    <tr onmouseout="gaze4_stop()" onmouseover="gaze4_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='gaze4_image'><img src='images/gazenav_after.png'></div>
+                <img src='images/gazenav_before.gif'>
+              </div>
+              <script type="text/javascript">
+                function gaze2_start() {
+                  document.getElementById('gaze3_image').style.opacity =" 1 ";
+                }
+
+                function gaze2_stop() {
+                  document.getElementById('gaze3_image').style.opacity = "0";
+                }
+                gaze2_stop()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="https://ram-lab.com/papers/2019/icml_2019_liu.pdf">
+              <papertitle>Robot Navigation in Crowds by Graph Convolutional Networks with Attention Learned from Human Gaze.</papertitle>
+              </a>
+              <br>
+              <em>arXiv 1909.10400</em>
+              <br>			  
+              <br>
+			  Yuying Chen*,
+              <strong>Congcong Liu*</strong>,
+              Ming Liu,
+              Bertram Shi
+              <br>
+              (*indicates equal contribution)
+              <br>
+                  <a href="https://arxiv.org/abs/1909.10400">arXiv</a> /
+                  <!--<a href="papers/190408377.bib">bibtex</a>-->
+              <br>
+            </td>
+          </tr>
+		
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+		    <tr onmouseout="gaze3_stop()" onmouseover="gaze3_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='gaze3_image'><img src='images/ICML19_after.png'></div>
+                <img src='images/ICML19_before.png'>
+              </div>
+              <script type="text/javascript">
+                function gaze2_start() {
+                  document.getElementById('gaze3_image').style.opacity =" 1 ";
+                }
+
+                function gaze2_stop() {
+                  document.getElementById('gaze3_image').style.opacity = "0";
+                }
+                gaze2_stop()
+              </script>
+            </td>
+            <td valign="middle" width="75%">
+              <a href="https://ram-lab.com/papers/2019/icml_2019_liu.pdf">
+              <papertitle>Utilizing Eye Gaze to Enhance the Generalization of Imitation Network to Unseen Environments.</papertitle>
+              </a>
+              <br>
+              <em>ICML workshop, 2019</em>
+              <br>			  
+              <br>
+              <strong>Congcong Liu*</strong>,
+			  Yuying Chen*,
+              Lei Tai,
+              Ming Liu,
+              Bertram Shi
+              <br>
+              (*indicates equal contribution)
+              <br>
+                  <a href="https://arxiv.org/pdf/1907.04728.pdf">arXiv</a> /
+                  <!--<a href="papers/190408377.bib">bibtex</a>-->
+              <br>
+            </td>
+          </tr>
+		  
+		    <tr onmouseout="gaze2_stop()" onmouseover="gaze2_start()">
             <td width="25%">
               <div class="one">
                 <div class="two" id='gaze2_image'><img src='images/gaze2_after.png'></div>
                 <img src='images/gaze2_before.png'>
               </div>
               <script type="text/javascript">
-                function gaze2_start() {
+                function gaze3_start() {
                   document.getElementById('gaze2_image').style.opacity =" 1 ";
                 }
 
-                function gaze2_stop() {
+                function gaze3_stop() {
                   document.getElementById('gaze2_image').style.opacity = "0";
                 }
                 gaze2_stop()
@@ -168,16 +246,10 @@
               </a>
               <br>
               <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2019)</em>
+              <br>  
               <br>
-              <a href="https://ram-lab.com/papers/2019/icml_2019_liu.pdf">
-              <papertitle>Utilizing Eye Gaze to Enhance the Generalization of Imitation Network to Unseen Environments.</papertitle>
-              </a>
-              <br>
-              <em>ICML workshop, 2019</em>
-              <br>			  
-              <br>
-              Yuying Chen*,
-              <strong>Congcong Liu*</strong>,
+			  Yuying Chen*,
+              <strong>Congcong Liu*</strong>
               Lei Tai,
               Ming Liu,
               Bertram Shi
@@ -189,7 +261,7 @@
               <br>
             </td>
           </tr>
-
+		  
           <tr onmouseout="gaze_stop()" onmouseover="gaze_start()">
             <td width="25%">
               <div class="one">
@@ -230,6 +302,7 @@
               <br>
             </td>
           </tr>
+		  
          <tr onmouseout="uail_stop()" onmouseover="uail_start()">
             <td width="25%">
               <div class="one">
